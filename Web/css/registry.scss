@@ -1,0 +1,148 @@
+//导航栏
+.header{
+    width: 1240px;
+    height: 81px;
+    margin: 0 auto;
+    .logo{
+        width: 150px;
+        height: 80px;
+        float: left;
+        img{
+            width: 125px;
+            height: 23px;
+            margin: 28px 0 0;
+        }
+    }
+}
+
+//content
+.content{
+    width: 1240px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    background: url(../resource/images/login.jpg) no-repeat;
+    background-position: -120px 6px;
+    .container{
+        padding-top: 150px;
+        form{
+            height:410px;
+            background-color: white;
+            .form-control{
+                width: 94%;
+                display: inline-block;
+            }
+            .tooltip1{
+                font-size: 12px;
+            }
+            .tooltip2{
+                font-size: 12px;
+            }
+            .tooltip3{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+//页尾
+.footer{
+    width: 1240px;
+    height: 222px;
+    margin: 0 auto;
+    .footer_top{
+        width: 1240px;
+        height: 120px;
+        padding-top: 10px;
+        ul{
+            float: left;
+            width: 1000px;
+            li{
+                float: left;
+                text-align: center;
+                margin:10px 20px 0;
+                img{
+                    margin: 0 10px;
+                }
+                span{
+                    color: #999;
+                    font-size: 12px;
+                }
+            }
+        }
+        div{
+            float: right;
+            span{
+                float: right;
+                font-size: 12px;
+                color: #999;
+                line-height: 30px;
+            }
+            p{
+                color: #008cff;
+                font-size: 25px;
+                font-weight: 400;
+                margin-top: -6px;
+                line-height: 40px;
+            }
+            em{
+                height: 30px;
+                padding: 0 16px;
+                overflow: hidden;
+                float: right;
+                line-height: 30px;
+                color: #fff;
+                border-radius: 20px;
+                margin-top: 3px;
+                display: block;
+                font-size: 14px;
+                background: #008cff;
+            }
+        }
+    }
+    .footer_bottom{
+        width: 1240px;
+        height: 80px;
+        border-top: 2px solid #eee;
+        padding-top: 10px;
+        .footer_bottom_left{
+            width: 1000px;
+            height: 80px;
+            float: left;
+            ul{
+                width: 1000px;
+                height: 40px;
+                line-height: 18px;
+                text-align: center;
+                li{
+                    float: left;
+                    display: block;
+                    font-size: 13px;
+                    height: 18px;
+                    color: #999;
+                    border-right: 1px solid #d6d6d6;
+                    padding: 4px 10px;
+                    line-height: 18px;
+                }
+                .end{
+                    border-right: none;
+                }
+            }
+            div{
+                height: 40px;
+                line-height: 40px;
+                color: #999;
+                font-size: 13px;
+                text-align: center;
+            }
+        }
+        .footer_bottom_right{
+            float: right;
+            width: 171px;
+            height: 80px;
+            margin-top: 40px;
+        }
+    }
+}
+
+
